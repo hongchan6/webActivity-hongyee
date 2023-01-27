@@ -1,9 +1,5 @@
 .logo-image{
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
+  margin: 15px;
 }
 
 body{
@@ -56,8 +52,13 @@ h2{
 
 }
 
+h3{
+  margin-top: 2rem;
+}
+
 p {
   color: white;
+  margin-top: 1rem;
 
 }
 
@@ -130,16 +131,21 @@ p {
   
   .navbar {
     padding: 0 0 4.5rem;
+
   }
-  
   
   .nav-item {
     padding: 0 18px;
+    color: #fff;
   }
   
   .nav-link{
     font-size: 1.2rem;
     font-family: "Arial";
+    color: #fff;
+  }
+
+  .nav-link:hover{
     color: #fff;
   }
   
@@ -150,6 +156,10 @@ p {
     text-decoration: underline orange 3px;
   }
   
+
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
   /* Image */
   
